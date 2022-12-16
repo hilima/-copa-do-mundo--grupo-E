@@ -1,0 +1,770 @@
+@font-face{
+		font-family: Unbounded;
+		src: url(fonts/unbounded-variablefont_wght-webfont.woff);
+}
+
+@font-face{
+	font-family: Mont;
+		src: url(fonts/mont-heavydemo-webfont.woff);
+}
+
+
+.container{
+margin-left: 25px;
+flex-direction: row;
+width: 95%;
+height: 10vh;
+background-color: rgb(37, 9, 2);
+margin-top: 26px;
+display: flex;
+justify-content: flex-start;
+align-items: stretch;
+}
+
+.txtbase{
+width: 95%;
+height: 20vh;
+background-color: transparent;
+
+	display: inline-block;
+	position: relative;
+}
+
+figcaption{
+	position: absolute;
+	top: 145px;
+	left: 350px;
+	font-size: 40px;
+color: #f1e3d3;
+
+font-family: Unbounded;
+}
+
+#txtpt{
+	font-family: Unbounded;
+	font-size: 12px;
+	color: rgb(128, 14, 19);
+	margin-left: 24px;
+
+
+
+}
+#atencao{
+	 background-color: white;
+	 width: 67%;
+	 height: 8vh;
+}
+
+#fifa{
+	width: 100%;
+	height: 7vh;
+}
+
+#ftml{
+width: 25%;
+height: 8vh;
+margin-left: 23px;
+background-color: black;
+
+}
+
+#maybelogo{
+	width: 65%;
+	height: 5vh;
+	background-color: rgb(128, 14, 19);
+	padding-bottom: 14px;
+	display: flex;
+	flex-direction: row;
+
+}
+
+#rectangle{
+	   
+	width: 87%;
+	height: 7vh;
+	background-color: #8f250c;
+	margin-left:470px;
+	flex-flow: row nowrap;
+	display: flex;
+	justify-content: flex-end;
+	
+	
+}
+
+#rectangleone{
+	width: 30%;
+	height: 7vh;
+	background-color: transparent;
+	margin-right: 12px;
+	
+	
+}
+
+#rectangletwo{
+	width: 25%;
+	height: 9vh;
+	background-color: transparent;	
+	margin-right: 14px;
+}
+
+#rectangletres{
+	width: 25%;
+	height: 7vh;
+	background-color: transparent;
+	margin-top: 4px;
+	
+}
+
+.imagebase{
+	width: 77%;
+	height: 85vh;
+	background-color: dimgray;
+	margin-left: 25px;
+	
+	
+
+}
+
+.squarebase{
+	width: 95%;
+	height: 55vh;
+	margin-left: 23px;
+
+	background-color: transparent;
+	flex-flow: row nowrap;
+	display: flex;
+	margin-top: 17px;
+
+}
+
+#squareone{
+	width: 60%;
+	height: 30vh;
+	background-color: pink;
+margin-left: 7px;
+box-shadow: 10px 5px 5px rgb(128, 14, 19);
+margin-top: 20px;
+
+}
+
+#protesto{
+	width: 100%;
+	height: 30vh;
+
+
+}
+
+
+#textalemanha{
+	font-family: Mont;
+font-size: 15px;
+}
+
+
+
+
+#squaretwo{
+	width: 70%;
+	height: 30vh;
+	background-color: pink;
+margin-left: 24px;
+box-shadow: 10px 5px 5px rgb(128, 14, 19);
+margin-top: 23px;
+
+}
+
+#costarica{
+	width: 100%;
+	height: 30vh;
+	
+
+}
+#textcostarica{
+	font-family: Mont;
+
+}
+
+
+
+#squaretres{
+	width: 70%;
+	height: 30vh;
+	background-color: pink;
+	margin-left: 24px;
+	box-shadow: 10px 5px 5px rgb(128, 14, 19);
+	margin-top: 23px;
+}
+
+#germanyspain{
+	width: 100%;
+	height: 30vh;
+}
+
+#txtgermanyspain{
+	font-family: Mont;	
+}
+
+#squarefour{
+	width: 70%;
+	height: 30vh;
+	background-color: pink;
+	margin-left: 24px;
+	box-shadow: 10px 5px 5px rgb(128, 14, 19);
+	margin-top: 23px
+}
+
+#jvscr{
+	width: 100%;
+	height: 30vh;
+}
+
+#textjvscr{
+	font-family: Mont;
+	font-size: 13px;
+
+
+}
+
+
+.textcolumn{
+	width: 95%;
+	height: 80vh;
+	margin-left: 26px;
+	background-color: transparent;
+	flex-flow: row nowrap;
+	display: flex;
+	margin-top: 73px;
+	
+}
+
+#columnone{
+	width: 50%;
+	height: 75vh;
+	background-color: transparent;
+	margin-left: 34px;
+	margin-right: 34px;
+	display: flex;
+	flex-direction: column;
+	flex-flow: nowrap column;
+	
+}
+
+#columnoftext{
+	width: 40%;
+	height: 65vh;
+	background-color: transparent;
+	margin-left: 4px;
+	margin-right: 34px;
+	flex-flow: nowrap column;
+}
+
+#welcome{
+	font-family: Unbounded;
+	color: rgb(128, 14, 19);
+}
+#columntxt{
+font-family: Mont;
+font-size: 12px;
+
+}
+
+
+#sidetxt{
+	width: 40%;
+	height: 75vh;
+	background-color: transparent;
+	margin-left: 24px;
+	margin-right: 24px;
+}
+
+#heyjpg{
+	width: 94%;
+	height: 85vh;
+	position: absolute;
+	
+}
+
+#contato{ width: 45%;
+	height: 6vh;
+
+}
+
+#saibamais{
+	width: 50%;
+	height: 7vh;
+
+}
+
+#info{
+	width: 40%;
+	height: 6vh;
+}
+
+
+
+#tweet{
+	width: 70%;
+	height: 30vh;
+}
+
+.help{
+	width: 100%;
+	height: 30vh;
+	background-color:white;
+	flex-wrap: row nowrap;
+	display: flex;
+	margin-bottom: 22px;
+	
+}
+
+ .groupe{
+ 	width: 85%;
+	height: 10vh;
+	background-color:white;
+	flex-flow: row nowrap;
+	display: flex;
+	margin-bottom: 24px;
+ }
+
+ #gpE{
+ 	width: 40%;
+ 	height: 10vh;
+ }
+
+ #gptxt{
+ 	
+	float: left;
+	font-size: 11px;
+	margin: 3px;
+	font-family: Mont;
+ }
+
+ .dnv{
+ 	width:85%;
+	height: 10vh;
+	background-color:white;
+	flex-flow: row nowrap;
+	display: flex;
+	margin-top: 24px;
+
+ }
+
+ #dnvimg{
+ 	width:50%;
+ 	height: 10vh;
+ }
+
+ #dnvtxt{
+ 	font-family: Mont;
+	float: left;
+	font-size: 13px;
+	margin: 3px;
+ }
+
+ .lastdiv{
+ 	width: 85%;
+	height: 10vh;
+	background-color:white;
+	flex-flow: row nowrap;
+	display: flex;
+	margin-top: 23px;
+ }
+
+ #lastimg{
+ 	width:40%;
+ 	height: 10vh;
+ }
+
+ #last{
+ 	
+	float: left;
+	font-size: 12px;
+	margin: 3px;
+	font-family: Mont;
+ }
+
+ .notice{
+ 	width: 100%;
+	height: 12vh;
+	background-color:white;
+	flex-flow: row nowrap;
+	display: flex;
+	margin-bottom: 12px;
+ }
+
+ #imgwyw{
+ 	width: 50%;
+ 	height: 12vh;
+ }
+
+ #wyw{
+ 	font-family: Mont;
+	
+	font-size: 12px;
+	margin: 3px;
+ }
+
+ 
+
+ .soccer{
+    width: 100%;
+	height: 10vh;
+	background-color:white;
+	flex-flow: row nowrap;
+	display: flex;
+	margin-bottom: 12px;
+ }
+
+ #socimg{
+ 	width: 40%;
+ 	height: 10vh;
+ }
+
+ #socwrite{
+ 	
+	float: left;
+	font-size: 12px;
+	margin: 3px;
+	font-family: Mont;
+ }
+
+ .apostas{
+ 	 width: 100%;
+	height: 10vh;
+	background-color:white;
+	flex-flow: row nowrap;
+	display: flex;
+	margin-bottom: 12px;
+ }
+
+ #img{
+ 	width: 40%;
+ 	height: 10vh;
+ }
+
+ #writetxt{
+ 	font-family: Mont;
+	float: left;
+	font-size: 12px;
+	margin: 3px;
+ }
+ .lost{
+width: 100%;
+	height: 10vh;
+	background-color:white;
+	flex-flow: row nowrap;
+	display: flex;
+	margin-bottom: 12px;
+ }
+
+ #loseimg{
+ 	width: 40%;
+ 	height: 10vh
+ }
+
+ #losetxt{
+ 	font-family: Mont;
+	float: left;
+	font-size: 12px;
+	margin: 3px;
+ }
+
+ .curiosidades{
+ 	width: 100%;
+	height: 10vh;
+	background-color:white;
+	flex-flow: row nowrap;
+	display: flex;
+	margin-bottom: 12px;
+ }
+
+
+ #curiosimg{
+ 	width: 85%;
+ 	height: 12vh
+ }
+
+ #curiostxt{
+ font-family: Mont;
+	margin-left: 5px;
+	font-size: 12px;
+	
+ }
+
+ @media (max-width: 760px){
+ 	.container{
+margin-left: 26px;
+flex-direction: row;
+width: 96%;
+height: 7vh;
+display: flex;
+justify-content: flex-start;
+align-items: stretch;
+} 
+ 	#maybelogo{
+ 		width: 100%;
+ 		height: 4vh;
+ 	}
+ 	#rectangle{
+	   
+	width: 100%;
+	height: 5vh;
+	
+	flex-flow: row nowrap;
+	display: flex;
+	justify-content: flex-end;
+	
+	
+}
+
+#fifa{
+	width: 100%
+	height:6vh;
+}
+#ftml{
+width: 55%;
+height: 7vh;
+
+}
+
+#txtpt{
+font-size: 6px;
+justify-content: center;
+
+}
+
+#atencao{
+	width: 55%;
+	height: 6vh;
+
+}
+
+#rectangleone{
+	width: 100%;
+	height: 5vh;
+	
+	
+}
+
+.squarebase{
+	padding-left: 4px ;
+	height: 93vh;
+	width: 100%;
+	background-color: white;
+	flex-flow: row wrap;
+	display: flex;
+	margin-top: 26px;
+}
+
+#squareone{
+	width: 45%;
+	height: 30vh;
+	background-color: pink;
+margin-right: 7px;
+
+
+
+}
+#protesto{
+	width: 100%;
+	height: 30vh;
+}
+#textalemanha{
+	font-family: Mont;
+	
+	margin-bottom: 96px;
+}
+
+
+
+#squaretwo{
+	width: 45%;
+	height: 30vh;
+	background-color: pink;
+margin-left: 34px;
+
+}
+
+#jvss{
+	width: 100%;
+	height: 30vh;
+}
+
+
+#squaretres{
+	width: 45%;
+	height: 30vh;
+	background-color: pink;
+	margin-left: 0px;
+	margin-right: 13px;
+	
+}
+#squarefour{
+	width: 45%;
+	height: 30vh;
+	background-color: pink;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-right: 13px;
+	
+}
+
+#jvscr{
+	width: 100%;
+	height: 30vh;
+
+}
+
+.textcolumn{
+	width: 94%;
+	height: 33vh;
+	margin-left: 26px;
+	background-color: white;
+	flex-flow: row nowrap;
+	display: flex;
+	margin-top: 26px;
+}
+
+#welcome{
+	font-family: Unbounded;
+	font-size: 45px;
+}
+
+#columntxt{
+	font-family: Mont;
+	font-size: 16px;
+}
+
+#columnone{
+	width: 0%;
+	height: 65vh;
+	background-color: transparent;
+	margin-left: 34px;
+	margin-right: 34px;
+}
+
+#columnoftext{
+	width: 100%;
+	height: 65vh;
+	background-color: transparent;
+	margin-left: 4px;
+	margin-right: 34px;
+
+}
+
+#sidetxt{
+	width: 0%;
+	
+}
+#germanytext{
+	font-size: 0px;
+	
+}
+
+#txtcrg{
+	
+	font-size: 0px;
+	
+}
+
+
+
+
+#txtjs{
+	
+	font-size: 0px;
+
+}
+ 
+
+ #gptxt{
+ 	
+	font-size: 0px;
+
+ }
+
+
+ #dnvtxt{
+ 	
+	font-size: 0px;
+	
+ }
+
+ 
+
+ #last{
+	font-size: 0%;
+	
+	 
+ }
+
+#columnone{
+	width: 0%;
+	
+}
+ 
+ 
+
+ #wyw{
+ 	
+	font-size: 0px;
+
+ }
+
+ 
+
+ 
+ #hightxt{
+ 	
+	font-size: 0px;
+	
+ }
+
+ 
+
+ 
+
+ #socwrite{
+ 	
+	font-size: 0px;
+	
+ }
+
+ 
+ 
+ #writetxt{
+ 	
+	font-size: 0px;
+	margin: 3px;
+ }
+ 
+
+ 
+ #losetxt{
+ 	
+	font-size: 0px;
+	margin: 0px;
+ }
+
+
+#rectangletwo{
+	width: 0%;
+	height: 0vh;
+	
+}
+
+#rectangletres{
+	width: 0%;
+	height: 0vh;
+	
+	
+}
+
+
+ 
+ #curiostxt{
+ 	
+	font-size: 0px;
+	
+ }
+}
